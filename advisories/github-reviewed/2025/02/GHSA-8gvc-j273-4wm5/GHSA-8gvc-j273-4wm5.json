@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gvc-j273-4wm5",
-  "modified": "2025-02-04T22:03:47Z",
+  "modified": "2025-02-04T22:03:49Z",
   "published": "2025-02-04T16:51:08Z",
   "aliases": [
     "CVE-2025-24963"
@@ -38,6 +38,44 @@
       "package": {
         "ecosystem": "npm",
         "name": "@vitest/browser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.0.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@vitest/ui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.4"
+            },
+            {
+              "fixed": "2.1.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@vitest/ui"
       },
       "ranges": [
         {
